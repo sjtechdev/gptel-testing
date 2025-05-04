@@ -496,27 +496,11 @@ Convenient to use with `cl-multiple-value-bind'"
 
 (defvar gptel-bedrock-model-ids
   ;; https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html
-  '((claude-3-5-sonnet-20241022  . "anthropic.claude-3-5-sonnet-20241022-v2:0")
-    (claude-3-5-sonnet-20240620  . "anthropic.claude-3-5-sonnet-20240620-v1:0")
+  '((claude-3-5-sonnet-20241022  . "us.anthropic.claude-3-5-sonnet-20241022-v2:0")
     (claude-3-5-haiku-20241022   . "us.anthropic.claude-3-5-haiku-20241022-v1:0")
-    (claude-3-opus-20240229      . "anthropic.claude-3-opus-20240229-v1:0")
-    (claude-3-sonnet-20240229    . "anthropic.claude-3-sonnet-20240229-v1:0")
-    (claude-3-haiku-20240307     . "anthropic.claude-3-haiku-20240307-v1:0")
-    (mistral-7b                  . "mistral.mistral-7b-instruct-v0:2")
-    (mistral-8x7b                . "mistral.mixtral-8x7b-instruct-v0:1")
-    (mistral-large-2402          . "mistral.mistral-large-2402-v1:0")
-    (mistral-large-2407          . "mistral.mistral-large-2407-v1:0")
-    (mistral-small-2402          . "mistral.mistral-small-2402-v1:0")
-    (llama-3-8b                  . "meta.llama3-8b-instruct-v1:0")
-    (llama-3-70b                 . "meta.llama3-70b-instruct-v1:0")
-    (llama-3-1-8b                . "meta.llama3-1-8b-instruct-v1:0")
-    (llama-3-1-70b               . "meta.llama3-1-70b-instruct-v1:0")
-    (llama-3-1-405b              . "meta.llama3-1-405b-instruct-v1:0")
-    (llama-3-2-1b                . "meta.llama3-2-1b-instruct-v1:0")
-    (llama-3-2-3b                . "meta.llama3-2-3b-instruct-v1:0")
-    (llama-3-2-11b               . "meta.llama3-2-11b-instruct-v1:0")
-    (llama-3-2-90b               . "meta.llama3-2-90b-instruct-v1:0")
-    (llama-3-3-70b               . "meta.llama3-3-70b-instruct-v1:0"))
+    (claude-3-7-sonnet-20250219   . "us.anthropic.claude-3-7-sonnet-20250219-v1:0")
+    (deepseek-r1-v1   . "us.deepseek.r1-v1:0")
+    )
   "Map of model name to bedrock id.
 
 IDs can be added or replaced by calling
